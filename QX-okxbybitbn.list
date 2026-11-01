@@ -1,0 +1,44 @@
+# NAME: CryptoExchanges (Bybit / OKX / Binance)
+# UPDATED: 2026-11-01
+# DESCRIPTION: 币安、欧易、Bybit 交易所完整分流规则（含行情推送、CDN与Web3接口）
+
+# ================= 1. Bybit (含 Bybit Card & 静态资源) =================
+host-suffix, bybit.com, Crypto
+host-suffix, bybit.io, Crypto
+host-suffix, bytick.com, Crypto
+host-suffix, bycsi.com, Crypto
+host-suffix, bybit-global.com, Crypto
+host-suffix, byabcde.com, Crypto
+host-suffix, byapps.net, Crypto
+host-suffix, byd3c3.com, Crypto
+host-suffix, bybit.biz, Crypto
+host-suffix, bybit.cloud, Crypto
+host-keyword, bybit, Crypto
+
+# ================= 2. OKX / 欧易 (含 Web3 钱包与行情接口) =================
+host-suffix, okx.com, Crypto
+host-suffix, okex.com, Crypto
+host-suffix, oklink.com, Crypto
+host-suffix, okx-dns.com, Crypto
+host-suffix, okx-dns1.com, Crypto
+host-suffix, okx-dns2.com, Crypto
+host-suffix, okcoin.com, Crypto
+host-suffix, okt.work, Crypto
+host-keyword, okx, Crypto
+
+# ================= 3. Binance / 币安 (含 Bnbstatic CDN 与行情加速) =================
+host-suffix, binance.com, Crypto
+host-suffix, binance.me, Crypto
+host-suffix, binance.org, Crypto
+host-suffix, binance.net, Crypto
+host-suffix, binance.info, Crypto
+host-suffix, binance.cloud, Crypto
+host-suffix, binance.us, Crypto
+host-suffix, binance.vision, Crypto
+host-suffix, bnbstatic.com, Crypto
+host-suffix, bntrace.com, Crypto
+host-suffix, bnappzh.com, Crypto
+host-suffix, bnc-cdn.com, Crypto
+host-suffix, binancecnt.com, Crypto
+host-suffix, appsflayer.com, Crypto
+host-keyword, binance, Crypto
