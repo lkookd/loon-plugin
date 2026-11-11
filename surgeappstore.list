@@ -1,0 +1,22 @@
+# ================= App Store 专属分流 =================
+
+# 苹果账号鉴权与登录
+DOMAIN,appleid.apple.com,AppStore
+DOMAIN,appleid.cdn-apple.com,AppStore
+DOMAIN,idmsa.apple.com,AppStore
+DOMAIN,gsa.apple.com,AppStore
+
+# 商店页面、搜索、内购与 TestFlight
+DOMAIN-SUFFIX,apps.apple.com,AppStore
+DOMAIN-SUFFIX,itunes.apple.com,AppStore
+DOMAIN,ppq.apple.com,AppStore
+DOMAIN,beta.apple.com,AppStore
+DOMAIN,testflight.apple.com,AppStore
+DOMAIN-KEYWORD,buy.itunes.apple.com,AppStore
+DOMAIN-SUFFIX,mzstatic.com,AppStore
+
+# 应用安装包下载与更新 CDN（原作者默认关闭）
+# DOMAIN,iosapps.itunes.apple.com,AppStore
+# DOMAIN,osxapps.itunes.apple.com,AppStore
+# DOMAIN,apptrailers.itunes.apple.com,AppStore
+# DOMAIN-SUFFIX,blobstore.apple.com,AppStore
