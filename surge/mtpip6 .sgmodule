@@ -1,0 +1,8 @@
+#!name=Telegram MTProto Proxy
+#!desc=开启 Surge 内置的 Telegram MTProto 代理服务器，通过 IPv6 链路稳定连接 Telegram 并避开 SOCKS5 Bug。
+
+[MTProto]
+interface = 127.0.0.1
+port = 4433
+secret = 0123456789abcdef0123456789abcdef
+ipv6 = true
