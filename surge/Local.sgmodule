@@ -1,0 +1,10 @@
+#!name=Local Device Loopback
+#!desc=将 10.7.0.1 回环到本地，适用于 SideStore 等本地开发者工具
+#!system=ios
+
+[General]
+ipv6-vif = disabled
+tun-included-routes = %INSERT% 10.7.0.1/32
+
+[IP Rewrite]
+10.7.0.1 = reflect
