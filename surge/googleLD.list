@@ -1,0 +1,16 @@
+# NAME: Google-Landing
+# DESC: Google services that need a stable residential/ISP exit IP
+# UPDATED: 2026-11-18
+# DOMAIN: 5
+# DOMAIN-SUFFIX: 2
+
+accounts.google.com
+myaccount.google.com
+mail.google.com
+www.google.com
+aistudio.google.com
+.gmail.com
+.gemini.google.com
+
+play.google.com
+.recaptcha.net
