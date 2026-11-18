@@ -1,16 +1,14 @@
-# NAME: Google-Landing
-# DESC: Google services that need a stable residential/ISP exit IP
-# UPDATED: 2026-11-18
-# DOMAIN: 5
-# DOMAIN-SUFFIX: 2
-
-accounts.google.com
-myaccount.google.com
-mail.google.com
-www.google.com
-aistudio.google.com
-.gmail.com
-.gemini.google.com
-.google.com.hk
-play.google.com
-.recaptcha.net
+# NAME: Google-Landing (RULE-SET 版)
+# 落地名单的规则格式版，内容与 googleLD.list 相同
+# 引用方式: RULE-SET,<本文件URL>,us-isp
+DOMAIN,google.com
+DOMAIN,accounts.google.com
+DOMAIN,myaccount.google.com
+DOMAIN,mail.google.com
+DOMAIN,www.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,play.google.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,recaptcha.net
